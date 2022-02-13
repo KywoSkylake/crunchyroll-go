@@ -122,7 +122,17 @@ $ crunchy download --audio ja-JP --subtitle de-DE https://www.crunchyroll.com/da
 - `--only-sub` » downloads only the subtitles without the corresponding video
 
 - `-d`, `--directory` » directory to download the video(s) to
-- `-o`, `--output` » name of the output file
+- `-o`, `--output` » name of the output file, you can use the fallowing variables to name the file
+ 
+  - `{title}` » Title of the video
+  - `{series_name}` » Name of the series
+  - `{season_title}` » Title of the season
+  - `{season_number}` » Number of the season
+  - `{episode_number}` » Number of the episode
+  - `{resolution}` » Resolution of the video
+  - `{fps}` » Frame Rate of the video
+  - `{audio}` » Audio locale of the video
+  - `{subtitle}` » Subtitle locale of the video
 
 - `-r`, `--resolution` » the resolution of the video(s). `best` for best resolution, `worst` for worst
 
